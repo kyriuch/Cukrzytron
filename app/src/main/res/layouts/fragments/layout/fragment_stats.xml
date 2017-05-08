@@ -1,0 +1,345 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView50"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_alignBaseline="@+id/niceTextView22"
+        android:layout_alignBottom="@+id/niceTextView22"
+        android:layout_toRightOf="@+id/niceTextView34"
+        android:layout_toEndOf="@+id/niceTextView34" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="6"
+        android:id="@+id/editText27"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp"
+        android:hint="dd/MM/yyyy"
+        android:layout_alignBaseline="@+id/textView77"
+        android:layout_alignBottom="@+id/textView77"
+        android:layout_toRightOf="@+id/textView77"
+        android:layout_toEndOf="@+id/textView77"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Ilość pomiarów"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView78"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView22"
+        android:layout_alignLeft="@+id/niceTextView22"
+        android:layout_alignStart="@+id/niceTextView22"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Poniżej celu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView29"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView28"
+        android:layout_alignLeft="@+id/niceTextView28"
+        android:layout_alignStart="@+id/niceTextView28"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Bolus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView32"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView31"
+        android:layout_alignLeft="@+id/niceTextView31"
+        android:layout_alignStart="@+id/niceTextView31"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Wartość energetyczna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView34"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView33"
+        android:layout_alignLeft="@+id/niceTextView33"
+        android:layout_alignStart="@+id/niceTextView33"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Średnie ciśnienie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView35"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView34"
+        android:layout_alignLeft="@+id/niceTextView34"
+        android:layout_alignStart="@+id/niceTextView34"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Średnia waga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView36"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView35"
+        android:layout_alignLeft="@+id/niceTextView35"
+        android:layout_alignStart="@+id/niceTextView35"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Aktywność fizyczna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView37"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView36"
+        android:layout_alignLeft="@+id/niceTextView36"
+        android:layout_alignStart="@+id/niceTextView36"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="HbA1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView38"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/niceTextView37"
+        android:layout_alignLeft="@+id/niceTextView37"
+        android:layout_alignStart="@+id/niceTextView37"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView47"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView78"
+        android:layout_alignBottom="@+id/textView78"
+        android:layout_alignLeft="@+id/niceTextView40"
+        android:layout_alignStart="@+id/niceTextView40" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView48"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/niceTextView28"
+        android:layout_alignBottom="@+id/niceTextView28"
+        android:layout_alignLeft="@+id/niceTextView47"
+        android:layout_alignStart="@+id/niceTextView47" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView49"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/niceTextView30"
+        android:layout_alignBottom="@+id/niceTextView30"
+        android:layout_alignLeft="@+id/niceTextView48"
+        android:layout_alignStart="@+id/niceTextView48" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView40"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_above="@+id/niceTextView30"
+        android:layout_alignLeft="@+id/niceTextView50"
+        android:layout_alignStart="@+id/niceTextView50" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView51"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_above="@+id/niceTextView32"
+        android:layout_alignLeft="@+id/niceTextView49"
+        android:layout_alignStart="@+id/niceTextView49" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView52"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_above="@+id/niceTextView33"
+        android:layout_alignLeft="@+id/niceTextView51"
+        android:layout_alignStart="@+id/niceTextView51" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView53"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_above="@+id/niceTextView34"
+        android:layout_alignLeft="@+id/niceTextView52"
+        android:layout_alignStart="@+id/niceTextView52" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView54"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/niceTextView34"
+        android:layout_alignBottom="@+id/niceTextView34"
+        android:layout_alignLeft="@+id/niceTextView53"
+        android:layout_alignStart="@+id/niceTextView53" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView55"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/niceTextView35"
+        android:layout_alignBottom="@+id/niceTextView35"
+        android:layout_alignLeft="@+id/niceTextView54"
+        android:layout_alignStart="@+id/niceTextView54" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView56"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_above="@+id/niceTextView37"
+        android:layout_alignLeft="@+id/niceTextView55"
+        android:layout_alignStart="@+id/niceTextView55" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView57"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/niceTextView37"
+        android:layout_alignBottom="@+id/niceTextView37"
+        android:layout_alignLeft="@+id/niceTextView56"
+        android:layout_alignStart="@+id/niceTextView56" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="brak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView58"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/niceTextView38"
+        android:layout_alignBottom="@+id/niceTextView38"
+        android:layout_alignLeft="@+id/niceTextView57"
+        android:layout_alignStart="@+id/niceTextView57" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Średnia glikemia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView22"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/editText27"
+        android:layout_alignLeft="@+id/textView77"
+        android:layout_alignStart="@+id/textView77" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Powyżej celu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView28"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView78"
+        android:layout_alignRight="@+id/textView78"
+        android:layout_alignEnd="@+id/textView78" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Insulina łącznie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView30"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/niceTextView29"
+        android:layout_alignLeft="@+id/textView78"
+        android:layout_alignStart="@+id/textView78" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Baza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView31"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/niceTextView30"
+        android:layout_alignLeft="@+id/niceTextView29"
+        android:layout_alignStart="@+id/niceTextView29" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Węglowodany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView33"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/niceTextView32"
+        android:layout_alignLeft="@+id/niceTextView30"
+        android:layout_alignStart="@+id/niceTextView30" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="75dp"
+        android:id="@+id/textView77"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

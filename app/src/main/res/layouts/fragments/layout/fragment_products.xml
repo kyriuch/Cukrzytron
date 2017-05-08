@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomek.cukrzyca.Fragments.WW.ProductsFragment">
+
+    <android.support.v7.widget.SwitchCompat
+        android:text="Ulubione"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch2"
+        android:layout_alignBaseline="@+id/editText18"
+        android:layout_alignBottom="@+id/editText18"
+        android:layout_alignRight="@+id/productsListView"
+        android:layout_alignEnd="@+id/productsListView"
+        android:layout_width="130dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText18"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:hint="Wyszukaj"
+        android:layout_above="@+id/productsListView"
+        android:layout_alignLeft="@+id/productsListView"
+        android:layout_alignStart="@+id/productsListView"
+        android:layout_marginBottom="19dp"
+        android:maxLines="1"
+        android:selectAllOnFocus="true" />
+
+    <ListView
+        android:id="@+id/productsListView"
+        android:layout_width="310dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

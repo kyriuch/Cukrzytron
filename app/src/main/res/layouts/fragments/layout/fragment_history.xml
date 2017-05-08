@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView18"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp"
+        android:layout_below="@+id/spinner5"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginTop="34dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="6"
+        android:id="@+id/editText25"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp"
+        android:layout_alignBaseline="@+id/niceTextView18"
+        android:layout_alignBottom="@+id/niceTextView18"
+        android:layout_alignLeft="@+id/spinner5"
+        android:layout_alignStart="@+id/spinner5"
+        android:hint="dd/MM/yyyy" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner5"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Filtruj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editText25"
+        android:layout_alignLeft="@+id/niceTextView18"
+        android:layout_alignStart="@+id/niceTextView18"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginRight="23dp"
+        android:id="@+id/listViewHistory" />
+
+</RelativeLayout>

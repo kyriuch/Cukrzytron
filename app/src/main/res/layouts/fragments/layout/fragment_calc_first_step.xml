@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomek.cukrzyca.Fragments.Calculator.CalcFirstStepFragment"
+    android:paddingStart="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingEnd="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Aby móc wyliczać potrzebne dawki insuliny wprowadź niezbędne informacje:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView90"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView91"
+        android:layout_alignLeft="@+id/textView93"
+        android:layout_alignStart="@+id/textView93"
+        android:layout_alignRight="@+id/textView93"
+        android:layout_alignEnd="@+id/textView93" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Podaj swój docelowy poziom cukru we krwi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView93"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView90"
+        android:layout_centerHorizontal="true" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView105"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp"
+        android:text="CZAS"
+        android:layout_below="@+id/textView93"
+        android:layout_alignLeft="@+id/scrollCalcFirst"
+        android:layout_alignStart="@+id/scrollCalcFirst" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView107"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp"
+        android:text="mg/dl"
+        android:layout_alignBaseline="@+id/textView105"
+        android:layout_alignBottom="@+id/textView105"
+        android:layout_alignRight="@+id/scrollCalcFirst"
+        android:layout_alignEnd="@+id/scrollCalcFirst" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="DOCELOWA GLIKEMIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView91"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22dp"
+        android:layout_marginTop="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:text="Anuluj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:id="@+id/button8"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/scrollCalcFirst"
+        android:layout_alignStart="@+id/scrollCalcFirst"
+        android:textSize="18sp"/>
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Krok 1 z 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView112"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="DALEJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignRight="@+id/scrollCalcFirst"
+        android:layout_alignEnd="@+id/scrollCalcFirst"
+        android:id="@+id/button17"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollCalcFirst"
+        android:layout_above="@+id/button16"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView105">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout14">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:text="+"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button16"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignBaseline="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>

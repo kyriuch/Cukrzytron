@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomek.cukrzyca.Fragments.Calculator.CalcSecondStepFragment"
+    android:paddingStart="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingEnd="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Krok 2 z 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView15"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Podaj wartość o którą 1 jednostka insuliny obniża Twój poziom cukru we krwi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView88"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView87"
+        android:layout_alignLeft="@+id/textView87"
+        android:layout_alignStart="@+id/textView87"
+        android:layout_alignRight="@+id/textView87"
+        android:layout_alignEnd="@+id/textView87" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="CZAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView89"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView88"
+        android:layout_alignLeft="@+id/scrollCalcSecond"
+        android:layout_alignStart="@+id/scrollCalcSecond" />
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:id="@+id/scrollCalcSecond"
+        android:layout_below="@+id/textView89"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_above="@+id/button22">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout15" />
+    </ScrollView>
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="mg/dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView108"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp"
+        android:layout_above="@+id/scrollCalcSecond"
+        android:layout_alignRight="@+id/scrollCalcSecond"
+        android:layout_alignEnd="@+id/scrollCalcSecond" />
+
+    <Button
+        android:text="Wróć"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:id="@+id/button21"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/scrollCalcSecond"
+        android:layout_alignStart="@+id/scrollCalcSecond"
+        android:textSize="18sp"/>
+
+    <Button
+        android:text="DALEJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button23"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignBaseline="@+id/button21"
+        android:layout_alignBottom="@+id/button21"
+        android:layout_alignRight="@+id/scrollCalcSecond"
+        android:layout_alignEnd="@+id/scrollCalcSecond"
+        android:textSize="18sp"/>
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="WSKAŹNIK INSULINOWRAŻLIWOŚCI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView87"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22dp"
+        android:layout_marginTop="84dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="+"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button22"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignBaseline="@+id/button21"
+        android:layout_alignBottom="@+id/button21"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

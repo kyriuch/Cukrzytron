@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomek.cukrzyca.Fragments.Calculator.CalculatorFragment">
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="KALKULATOR DAWKI"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:id="@+id/textView44"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp"
+        android:layout_width="300dp"
+        android:textAlignment="center" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="dd-MM-yyyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView44"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_alignStart="@+id/textView44"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView60"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="HH:mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView61"
+        android:layout_alignBaseline="@+id/textView60"
+        android:layout_alignBottom="@+id/textView60"
+        android:layout_alignRight="@+id/textView44"
+        android:layout_alignEnd="@+id/textView44"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout9"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView60"
+        android:layout_alignLeft="@+id/textView60"
+        android:layout_alignStart="@+id/textView60"
+        android:visibility="gone">
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="AKTYWNA INSULINA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView62"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3"
+            android:id="@+id/editText13"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView63"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout10"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_alignLeft="@+id/linearLayout9"
+        android:layout_alignStart="@+id/linearLayout9">
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="GLIKEMIA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView64"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3"
+            android:id="@+id/editText14"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="mg/dl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView65"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_alignLeft="@+id/linearLayout10"
+        android:layout_alignStart="@+id/linearLayout10"
+        android:layout_marginTop="11dp"
+        android:id="@+id/linearLayout11">
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="WĘGLOWODANY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView66"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:id="@+id/editText15"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:inputType="numberDecimal" />
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="gram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView67"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout11"
+        android:layout_alignLeft="@+id/linearLayout11"
+        android:layout_alignStart="@+id/linearLayout11"
+        android:layout_marginTop="12dp"
+        android:id="@+id/linearLayout12">
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="SUGEROWANA DAWKA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView68"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:id="@+id/editText16"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:inputType="numberSigned" />
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView71"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout12"
+        android:layout_alignLeft="@+id/linearLayout12"
+        android:layout_alignStart="@+id/linearLayout12"
+        android:layout_marginTop="12dp"
+        android:id="@+id/linearLayout13">
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="PODANA DAWKA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView72"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:id="@+id/editText17"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:inputType="numberSigned" />
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView73"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+    <Button
+        android:text="WRÓĆ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="41dp"
+        android:id="@+id/button6"
+        android:layout_below="@+id/linearLayout13"
+        android:layout_alignRight="@+id/linearLayout10"
+        android:layout_alignEnd="@+id/linearLayout10"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="ZAPISZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_toRightOf="@+id/linearLayout10"
+        android:layout_toEndOf="@+id/linearLayout10"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+</RelativeLayout>

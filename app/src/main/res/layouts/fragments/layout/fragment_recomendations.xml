@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Określ codzienną częstotliwość oraz kaloryczność posiłków, aby mieć swoją dietę pod kontrolą"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:id="@+id/textView26"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_width="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="+"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="81dp"
+        android:id="@+id/button29"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:layout_width="50dp" />
+
+    <TextView
+        android:text="Aktywne przypomnienia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView53"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch4"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/textView53"
+        android:layout_alignBottom="@+id/textView53"
+        android:layout_toRightOf="@+id/textView53"
+        android:layout_toEndOf="@+id/textView53" />
+
+    <ListView
+        android:layout_height="match_parent"
+        android:id="@+id/recList"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView26"
+        android:layout_above="@+id/button29"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

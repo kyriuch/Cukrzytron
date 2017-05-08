@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="TWOJE DANE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView75"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Płeć"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/niceTextView3"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_below="@+id/niceTextView4"
+        android:layout_alignLeft="@+id/niceTextView4"
+        android:layout_alignStart="@+id/niceTextView4" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Nazwisko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView6"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_below="@+id/niceTextView5"
+        android:layout_alignLeft="@+id/niceTextView5"
+        android:layout_alignStart="@+id/niceTextView5"
+        android:layout_marginTop="28dp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Data urodzenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/niceTextView4"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_below="@+id/niceTextView6"
+        android:layout_alignLeft="@+id/niceTextView6"
+        android:layout_alignStart="@+id/niceTextView6" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Wzrost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/niceTextView10"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_below="@+id/RD3"
+        android:layout_alignLeft="@+id/niceTextView3"
+        android:layout_alignStart="@+id/niceTextView3" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText22"
+        android:hint="Imię"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/niceTextView5"
+        android:layout_alignBottom="@+id/niceTextView5"
+        android:layout_toRightOf="@+id/niceTextView4"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_width="150dp" />
+
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/RD3"
+        android:layout_alignTop="@+id/niceTextView3"
+        android:layout_alignLeft="@+id/editText20"
+        android:layout_alignStart="@+id/editText20"
+        android:layout_width="wrap_content"
+        android:layout_alignRight="@+id/editText20"
+        android:layout_alignEnd="@+id/editText20">
+
+        <RadioButton
+            android:text="M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton6"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="4"
+        android:id="@+id/editText21"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignBaseline="@+id/niceTextView10"
+        android:layout_alignBottom="@+id/niceTextView10"
+        android:layout_alignLeft="@+id/RD3"
+        android:layout_alignStart="@+id/RD3" />
+
+    <TextView
+        android:text="cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView56"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/editText21"
+        android:layout_alignBottom="@+id/editText21"
+        android:layout_toRightOf="@+id/editText21"
+        android:layout_toEndOf="@+id/editText21" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText23"
+        android:hint="Nazwisko"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/niceTextView6"
+        android:layout_alignBottom="@+id/niceTextView6"
+        android:layout_alignLeft="@+id/editText22"
+        android:layout_alignStart="@+id/editText22"
+        android:layout_alignRight="@+id/editText22"
+        android:layout_alignEnd="@+id/editText22" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText20"
+        android:hint="dd/mm/yyyy"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/niceTextView4"
+        android:layout_alignBottom="@+id/niceTextView4"
+        android:layout_alignLeft="@+id/editText23"
+        android:layout_alignStart="@+id/editText23"
+        android:layout_alignRight="@+id/editText23"
+        android:layout_alignEnd="@+id/editText23" />
+
+    <Button
+        android:text="Zapisz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:layout_below="@+id/editText21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Imię"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/niceTextView5"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView75"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+
+</RelativeLayout>

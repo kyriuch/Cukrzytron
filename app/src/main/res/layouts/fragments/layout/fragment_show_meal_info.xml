@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.WW.MealInfoFragment">
+
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="meal_name"
+        android:id="@+id/textView43"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAZEM:"
+        android:id="@+id/textView45"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/SV"
+        android:layout_alignLeft="@+id/SV"
+        android:layout_alignStart="@+id/SV"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 g"
+        android:id="@+id/textView46"
+        android:layout_below="@+id/textView45"
+        android:layout_alignLeft="@+id/textView45"
+        android:layout_alignStart="@+id/textView45"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 g węglowodanów"
+        android:id="@+id/textView47"
+        android:layout_below="@+id/textView46"
+        android:layout_alignLeft="@+id/textView46"
+        android:layout_alignStart="@+id/textView46"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 ww"
+        android:id="@+id/textView48"
+        android:layout_below="@+id/textView47"
+        android:layout_alignLeft="@+id/textView47"
+        android:layout_alignStart="@+id/textView47"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 kcal"
+        android:id="@+id/textView49"
+        android:layout_below="@+id/textView48"
+        android:layout_alignLeft="@+id/textView48"
+        android:layout_alignStart="@+id/textView48"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/textView43"
+        android:layout_alignRight="@+id/SV"
+        android:layout_alignEnd="@+id/SV"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <ScrollView
+        android:layout_below="@+id/textView43"
+        android:layout_alignLeft="@+id/textView43"
+        android:layout_alignStart="@+id/textView43"
+        android:layout_width="340dp"
+        android:layout_height="320dp"
+        android:id="@+id/SV">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout17" />
+    </ScrollView>
+
+</RelativeLayout>

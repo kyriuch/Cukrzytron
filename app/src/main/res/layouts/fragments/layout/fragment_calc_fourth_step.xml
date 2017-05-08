@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomek.cukrzyca.Fragments.Calculator.CalcFourthStepFragment"
+    android:paddingStart="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingEnd="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Krok 4 z 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/niceTextView17"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/spinner1"
+        android:layout_below="@+id/textView115"
+        android:layout_alignLeft="@+id/textView118"
+        android:layout_alignStart="@+id/textView118"
+        android:layout_alignRight="@+id/textView127"
+        android:layout_alignEnd="@+id/textView127" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="Podaj dokładność dawki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:id="@+id/textView115"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Wróć"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        android:id="@+id/button27"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView115"
+        android:layout_alignStart="@+id/textView115" />
+
+    <Button
+        android:text="Zapisz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button28"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/button27"
+        android:layout_alignBottom="@+id/button27"
+        android:layout_alignRight="@+id/textView115"
+        android:layout_alignEnd="@+id/textView115" />
+
+</RelativeLayout>

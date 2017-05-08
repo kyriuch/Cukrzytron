@@ -1,0 +1,133 @@
+<resources>
+    <color name="bg_color">#4dc8fd</color>
+    <string name="app_name">CukrzyX</string>
+
+    <!-- Zapisanie danych -->
+    <string name="preference_file_name">com.cukrzyca.myapp.PREFERENCE</string>
+    <string name="customer_id">custID</string>
+    <string name="first_name">custFirstName</string>
+    <string name="birth_date">custBirthDate</string>
+    <string name="sex">custSex</string>
+    <string name="height">custHeight</string>
+    <string name="weight">custWeight</string>
+    <string name="mealTime">custMealTime</string>
+    <string name="mealKcal">custMealKcal</string>
+    <string name="savedSettings">savedSettings</string>
+
+    <!-- Teksty activity wstępnych -->
+    <!-- Activity 1 -->
+    <string name="male">M</string>
+    <string name="female">K</string>
+    <string name="welcomeText">Witaj! Aby rozpocząć korzystanie z aplikacji podaj kilka informacji o sobie.</string>
+    <string name="stepOneOutOfTwo">Krok 1 z 2</string>
+    <string name="birthDate">Data urodzenia</string>
+    <string name="firstName">Imię</string>
+    <string name="nextStep">Następny krok</string>
+    <!-- Activity 1 -->
+
+    <!-- Activity 2 -->
+    <string name="stepTwoOutOfTwo">Krok 2 z 2</string>
+    <string name="secondStepText">1. Podaj niezbędne informacje potrzebne do</string>
+    <string name="heightStepTwo">Wzrost</string>
+    <string name="weightStepTwo">Waga</string>
+    <string name="cm">[cm]</string>
+    <string name="kg">[kg]</string>
+    <string name="bmiText">Twoje BMI to</string>
+    <string name="stepTwoOutOfTwo2">2. Czy otrzymałeś ustalenia dietetyczne?</string>
+    <string name="Yes">Tak</string>
+    <string name="No">Nie</string>
+    <string name="secondStepInfo">Wprowadzone dane możesz zmienić w ustawieniach, również tam wpisz swoje cele leczenia.</string>
+    <string name="nextStep2">Zakończ</string>
+    <!-- Activity 2 -->
+
+    <!-- Activity 3 -->
+    <string name="mealsText">Określ codzienną częstotliwość oraz wartość kaloryczną posiłków, aby mieć swoją dietę pod kontrolą (pozostaw pusty posiłek, by ominąć):</string>
+    <string name="addMeal">+ dodaj posiłek</string>
+    <string name="time">Godzina</string>
+    <string name="Kcal">Kcal</string>
+    <string name="title_activity_main">CukrzyX</string>
+
+    <string name="navigation_drawer_open">Otwórz panel boczny</string>
+    <string name="navigation_drawer_close">Zamknij panel boczny</string>
+
+    <string name="action_calc">Kalkulator dawki</string>
+    <string name="action_plus">Nowy wpis</string>
+    <string name="end">Zakończ</string>
+    <string name="amount"><b>0</b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Activity 3 -->
+
+    <string-array name="accuracies">
+        <item>0.1</item>
+        <item>0.5</item>
+        <item>1.0</item>
+    </string-array>
+
+    <string-array name="measurementType">
+        <item>Na czczo</item>
+        <item>Przed posiłkiem</item>
+        <item>Po posiłku</item>
+        <item>Przed śniadaniem</item>
+        <item>Po śniadaniu</item>
+        <item>Przed obiadem</item>
+        <item>Po obiedzie</item>
+        <item>Przed kolacją</item>
+        <item>Po kolacji</item>
+        <item>Przed snem</item>
+        <item>W nocy</item>
+        <item>Przed wysiłkiem</item>
+        <item>Po wysiłku</item>
+        <item>Złe samopoczucie</item>
+        <item>Inny</item>
+    </string-array>
+
+    <string-array name="notificationTypes">
+        <item>Dieta</item>
+        <item>Glikemia</item>
+        <item>Insulina</item>
+        <item>Inne</item>
+    </string-array>
+
+    <string-array name="bazaTypes">
+        <item>Lantus</item>
+        <item>Abasaglar</item>
+        <item>Levemir</item>
+        <item>Tresiba</item>
+        <item>Gensulin N</item>
+        <item>Humulin N</item>
+        <item>Insulatard</item>
+        <item>Insuman</item>
+        <item>Basal</item>
+        <item>Polhumin N</item>
+        <item>Inny</item>
+    </string-array>
+    
+    <string-array name="bolusType">
+        <item>NovoRapid</item>
+        <item>Penfill</item>
+        <item>Apidra</item>
+        <item>Apidra SoloStar</item>
+        <item>Humalog</item>
+        <item>Actrapid Penfill</item>
+        <item>Polhumin R</item>
+        <item>Humulin R</item>
+        <item>Gensulin R</item>
+        <item>Insuman Rapid</item>
+        <item>Inny</item>
+    </string-array>
+
+    <string-array name="filtrTypes">
+        <item>Wszystko</item>
+        <item>Glikemię</item>
+        <item>Insulinę</item>
+        <item>Węglowodany</item>
+        <item>Kcal</item>
+        <item>Wagę</item>
+        <item>Ciśnienie i puls</item>
+        <item>Aktywność fizyczną</item>
+        <item>HbA1c</item>
+        <item>BMI</item>
+    </string-array>
+</resources>

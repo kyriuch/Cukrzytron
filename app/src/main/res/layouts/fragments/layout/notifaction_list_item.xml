@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_marginBottom="22dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="HH:mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView51"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_alignBaseline="@+id/switch1"
+            android:layout_alignBottom="@+id/switch1"
+            android:textSize="18sp"/>
+
+        <tomek.cukrzyca.NiceTextView
+            android:text=","
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView54"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/textView51"
+            android:layout_alignBottom="@+id/textView51"
+            android:layout_toRightOf="@+id/textView51"
+            android:layout_toEndOf="@+id/textView51"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"/>
+
+        <tomek.cukrzyca.NiceTextView
+            android:text="Nazwa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/textView54"
+            android:layout_alignBottom="@+id/textView54"
+            android:layout_toRightOf="@+id/textView54"
+            android:layout_toEndOf="@+id/textView54"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomek.cukrzyca.Fragments.PopFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="ZAPISZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3"
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"/>
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="PODANO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView82"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/textView69"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupPop"
+        android:layout_below="@+id/textView82"
+        android:layout_alignLeft="@+id/textView82"
+        android:layout_alignStart="@+id/textView82"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:text="Baza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton" />
+
+        <RadioButton
+            android:text="Bolus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton" />
+    </RadioGroup>
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="TWÓJ PEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView69"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="DAWKĘ ZAPISANO\nWCZEŚNIEJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:layout_below="@+id/radioGroupPop"
+        android:layout_alignLeft="@+id/radioGroupPop"
+        android:layout_alignStart="@+id/radioGroupPop"
+        android:layout_marginTop="32dp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView70"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignBaseline="@+id/textView69"
+        android:layout_alignBottom="@+id/textView69"
+        android:layout_toRightOf="@+id/radioGroupPop"
+        android:layout_toEndOf="@+id/radioGroupPop"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="ilość"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView83"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_above="@+id/radioGroupPop"
+        android:layout_toRightOf="@+id/radioGroupPop"
+        android:layout_toEndOf="@+id/radioGroupPop" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="JEDNOSTEK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView84"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignBaseline="@+id/textView83"
+        android:layout_alignBottom="@+id/textView83"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_toStartOf="@+id/button4" />
+
+    <tomek.cukrzyca.NiceTextView
+        android:text="czas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView81"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignBaseline="@+id/textView70"
+        android:layout_alignBottom="@+id/textView70"
+        android:layout_toRightOf="@+id/textView84"
+        android:layout_toEndOf="@+id/textView84" />
+
+</RelativeLayout>

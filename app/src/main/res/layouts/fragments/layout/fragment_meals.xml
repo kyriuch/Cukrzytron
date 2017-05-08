@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomek.cukrzyca.Fragments.WW.MealsFragment">
+
+    <android.support.v7.widget.SwitchCompat
+        android:text="Ulubione"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch3"
+        android:layout_alignBaseline="@+id/editText19"
+        android:layout_alignBottom="@+id/editText19"
+        android:layout_alignRight="@+id/mealsListView"
+        android:layout_alignEnd="@+id/mealsListView"
+        android:layout_width="130dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText19"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:hint="Wyszukaj"
+        android:layout_above="@+id/mealsListView"
+        android:layout_alignLeft="@+id/mealsListView"
+        android:layout_alignStart="@+id/mealsListView"
+        android:layout_marginBottom="19dp"
+        android:maxLines="1"
+        android:selectAllOnFocus="true" />
+
+    <ListView
+        android:id="@+id/mealsListView"
+        android:layout_width="310dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

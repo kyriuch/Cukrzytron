@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/registerLayout"
+            android:layout_height="wrap_content">
+
+
+            <TimePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timePicker"
+                android:timePickerMode="spinner"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:layout_alignTop="@+id/datePicker2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layerType="hardware"/>
+
+            <tomek.cukrzyca.NiceTextView
+                android:text="Uzupełnij wpis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/niceTextView"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:layout_marginBottom="15dp"
+                android:layout_alignBottom="@+id/datePicker2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp" />
+
+            <tomek.cukrzyca.NiceTextView
+                android:text="Rodzaj pomiaru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/registerTable"
+                android:layout_alignLeft="@+id/niceTextView"
+                android:layout_alignStart="@+id/niceTextView"
+                android:id="@+id/textView27"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16sp"
+                android:paddingLeft="5dp"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerTable"
+                android:layout_below="@+id/spinner"
+                android:layout_marginTop="11dp"
+                android:layout_alignLeft="@+id/textView27"
+                android:layout_alignStart="@+id/textView27"
+                android:layout_alignRight="@+id/spinner"
+                android:layout_alignEnd="@+id/spinner">
+
+            </TableLayout>
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_width="200dp"
+                android:layout_below="@+id/datePicker2"
+                android:layout_toRightOf="@+id/textView27"
+                android:layout_toEndOf="@+id/textView27"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:paddingTop="3dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textLongMessage"
+                android:ems="10"
+                android:id="@+id/editText12"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/registerTable"
+                android:layout_alignStart="@+id/registerTable"
+                android:layout_alignRight="@+id/registerTable"
+                android:layout_alignEnd="@+id/registerTable"
+                android:layout_below="@+id/registerTable"
+                android:hint="Notatka"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:maxLines="1"/>
+
+            <DatePicker
+                android:layout_height="wrap_content"
+                android:id="@+id/datePicker2"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:layout_width="wrap_content"
+                android:layerType="hardware"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="Dodaj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button9"
+                android:layout_below="@+id/editText12"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
